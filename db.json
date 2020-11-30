@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "email": "mobile.costa@gmail.com",
+      "password": "$2a$10$ofMW3.s1Xb9dQ3FJb4lBJ.AdOZyJK.lS20IooDbucpTKSKKKoherK",
+      "id": 1
+    }
+  ],
+  "master1": [
+    {
+      "id": 1,
+      "name": "Registro 1"
+    },
+    {
+      "id": 2,
+      "name": "Registro 2"
+    },
+    {
+      "id": 3,
+      "name": "Registro 3"
+    },
+    {
+      "name": "Registro 4",
+      "id": 4
+    },
+    {
+      "name": "Registro 5",
+      "createdAt": 1604328487009,
+      "id": 5
+    },
+    {
+      "name": "Registro 6",
+      "createdAt": 1604328535757,
+      "id": 6
+    },
+    {
+      "name": "Registro 7",
+      "id": 7
+    },
+    {
+      "name": "Registro 8",
+      "id": 8
+    },
+    {
+      "name": "Registro 9",
+      "id": 9
+    },
+    {
+      "name": "Registro 10",
+      "id": 10
+    }
+  ],
+  "master2": [],
+  "masterdetail": [],
+  "clientes": [
+    {
+      "status": "active",
+      "name": "Wagner Mobile Costa",
+      "email": "mobile.costa@gmail.com",
+      "nickname": "Mobile",
+      "birthdate": "1979-10-12",
+      "genre": "male",
+      "nationality": "Brasileiro",
+      "street": "Rua Esplanada, 23",
+      "city": "3550308",
+      "country": "Brasil",
+      "mother": "Elizabete Mobile Costa",
+      "father": "Jurandy da Silva Costa",
+      "id": 1
+    }
+  ]
+}
