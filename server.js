@@ -25,6 +25,6 @@ server.db = router.db
 // Use default router
 server.use(auth)
 server.use(router)
-server.listen(443, () => {
+server.listen(80, () => {
   console.log('JSON Server is running')
 })
