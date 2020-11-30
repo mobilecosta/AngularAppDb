@@ -1,115 +1,18 @@
 {
-  "_from": "json-server-auth",
-  "_id": "json-server-auth@2.0.2",
-  "_inBundle": false,
-  "_integrity": "sha512-O1b2CFtrUGKMwR02AglZb2A5FSpnAgrE6f6bYXnWwwr+wBH/dfB8tJx/PffOhUB2fez9d0URqvCeVOJ7PyIPug==",
-  "_location": "/json-server-auth",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "json-server-auth",
-    "name": "json-server-auth",
-    "escapedName": "json-server-auth",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#DEV:/",
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/json-server-auth/-/json-server-auth-2.0.2.tgz",
-  "_shasum": "5a19cf45924030317a64998d9d437278577f4d55",
-  "_spec": "json-server-auth",
-  "_where": "D:\\dev\\angular\\json-server-auth",
-  "author": {
-    "name": "Jeremy Bensimon"
-  },
-  "bin": {
-    "json-server-auth": "dist/bin.js"
-  },
-  "bugs": {
-    "url": "https://github.com/jeremyben/json-server-auth/issues"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^8.5.1",
-    "yargs": "^15.3.1"
-  },
-  "deprecated": false,
-  "description": "Authentication middleware for JSON Server",
-  "devDependencies": {
-    "@types/bcryptjs": "^2.4.2",
-    "@types/express": "^4.17.6",
-    "@types/jest": "^25.2.3",
-    "@types/json-server": "^0.14.2",
-    "@types/jsonwebtoken": "^8.5.0",
-    "@types/supertest": "^2.0.9",
-    "@types/yargs": "^15.0.5",
-    "express": "^4.17.1",
-    "jest": "^26.0.1",
-    "json-server": "^0.16.1",
-    "rimraf": "^3.0.2",
-    "standard-version": "^8.0.0",
-    "supertest": "^4.0.2",
-    "tree-kill": "^1.2.2",
-    "ts-jest": "^26.1.0",
-    "ts-node-dev": "^1.0.0-pre.44",
-    "tslint": "^6.1.2",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.9.3",
-    "typescript-tslint-plugin": "^0.5.5"
-  },
-  "engineStrict": true,
-  "engines": {
-    "node": ">=10"
-  },
-  "files": [
-    "dist"
-  ],
-  "homepage": "https://github.com/jeremyben/json-server-auth#readme",
-  "keywords": [
-    "JSON",
-    "server",
-    "fake",
-    "REST",
-    "API",
-    "prototyping",
-    "mock",
-    "mocking",
-    "test",
-    "testing",
-    "rest",
-    "data",
-    "dummy",
-    "sandbox",
-    "json-server",
-    "middleware",
-    "auth",
-    "authentication",
-    "authorization",
-    "jwt"
-  ],
-  "license": "MIT",
-  "main": "dist/index.js",
-  "name": "json-server-auth",
-  "peerDependencies": {
-    "json-server": "^0.15"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeremyben/json-server-auth.git"
-  },
+  "name": "json-server-deploy",
+  "version": "1.0.0",
+  "description": "Simple json database to deploy to the host of your choice",
+  "main": "server.js",
   "scripts": {
-    "build": "rimraf dist && tsc -p tsconfig.build.json",
-    "prepublishOnly": "yarn run build",
-    "release": "standard-version",
-    "test": "jest",
-    "test:file": "jest --testPathPattern",
-    "test:watch": "jest --watch --verbose false"
+    "start": "node server.js"
   },
-  "types": "dist/index.d.ts",
-  "version": "2.0.2"
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
+  "author": "Jesper Orb",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.2",
+	"json-server-auth": "2.0.2" 
+  }
 }
